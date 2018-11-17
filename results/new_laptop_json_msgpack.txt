@@ -1,0 +1,192 @@
+----data/ds_1000_short----
+json
+time: 0.00011324882507324219 seconds 
+memory: current = 0.04 MiB and peak = 0.05 MiB
+[ Top 3 ]
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:355: size=32.5 KiB, count=1004, average=33 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:339: size=584 B, count=1, average=584 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/__init__.py:299: size=512 B, count=1, average=512 B
+
+msgpack
+time: 5.91278076171875e-05 seconds 
+memory: current = 0.03 MiB and peak = 2.04 MiB
+[ Top 3 ]
+profile_action.py:102: size=31.4 KiB, count=1003, average=32 B
+profile_action.py:103: size=32 B, count=1, average=32 B
+
+----data/ds_1000_long----
+json
+time: 0.00030612945556640625 seconds 
+memory: current = 0.04 MiB and peak = 0.07 MiB
+[ Top 3 ]
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:355: size=32.5 KiB, count=1004, average=33 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:339: size=584 B, count=1, average=584 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/__init__.py:299: size=512 B, count=1, average=512 B
+
+msgpack
+time: 6.103515625e-05 seconds 
+memory: current = 0.03 MiB and peak = 2.04 MiB
+[ Top 3 ]
+profile_action.py:102: size=31.4 KiB, count=1003, average=32 B
+profile_action.py:103: size=32 B, count=1, average=32 B
+
+----data/ds_1000000_short----
+json
+time: 0.10802221298217773 seconds 
+memory: current = 31.19 MiB and peak = 42.63 MiB
+[ Top 3 ]
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:355: size=31.2 MiB, count=1000004, average=33 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:339: size=584 B, count=1, average=584 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/__init__.py:299: size=512 B, count=1, average=512 B
+
+msgpack
+time: 0.03462409973144531 seconds 
+memory: current = 30.52 MiB and peak = 32.56 MiB
+[ Top 3 ]
+profile_action.py:102: size=30.5 MiB, count=1000003, average=32 B
+profile_action.py:103: size=32 B, count=1, average=32 B
+
+----data/ds_1000000_long----
+json
+time: 0.3550410270690918 seconds 
+memory: current = 31.19 MiB and peak = 69.33 MiB
+[ Top 3 ]
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:355: size=31.2 MiB, count=1000004, average=33 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:339: size=584 B, count=1, average=584 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/__init__.py:299: size=512 B, count=1, average=512 B
+
+msgpack
+time: 0.03250575065612793 seconds 
+memory: current = 30.52 MiB and peak = 32.56 MiB
+[ Top 3 ]
+profile_action.py:102: size=30.5 MiB, count=1000003, average=32 B
+profile_action.py:103: size=32 B, count=1, average=32 B
+
+----data/ds_10000000_short----
+json
+time: 1.111483097076416 seconds 
+memory: current = 306.64 MiB and peak = 421.08 MiB
+[ Top 3 ]
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:355: size=307 MiB, count=10000004, average=32 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:339: size=584 B, count=1, average=584 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/__init__.py:299: size=512 B, count=1, average=512 B
+
+msgpack
+time: 0.31357312202453613 seconds 
+memory: current = 305.18 MiB and peak = 307.22 MiB
+[ Top 3 ]
+profile_action.py:102: size=305 MiB, count=10000003, average=32 B
+profile_action.py:103: size=32 B, count=1, average=32 B
+
+----data/ds_10000000_long----
+json
+time: 3.306885004043579 seconds 
+memory: current = 306.64 MiB and peak = 688.11 MiB
+[ Top 3 ]
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:355: size=307 MiB, count=10000004, average=32 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:339: size=584 B, count=1, average=584 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/__init__.py:299: size=512 B, count=1, average=512 B
+
+msgpack
+time: 0.3445429801940918 seconds 
+memory: current = 305.18 MiB and peak = 307.22 MiB
+[ Top 3 ]
+profile_action.py:102: size=305 MiB, count=10000003, average=32 B
+profile_action.py:103: size=32 B, count=1, average=32 B
+
+----data/ds_50000000_short----
+json
+time: 5.502957105636597 seconds 
+memory: current = 1548.85 MiB and peak = 2121.05 MiB
+[ Top 3 ]
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:355: size=1549 MiB, count=50000004, average=32 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:339: size=584 B, count=1, average=584 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/__init__.py:299: size=512 B, count=1, average=512 B
+
+msgpack
+time: 1.6872870922088623 seconds 
+memory: current = 1525.88 MiB and peak = 1528.51 MiB
+[ Top 3 ]
+profile_action.py:102: size=1526 MiB, count=50000003, average=32 B
+profile_action.py:103: size=32 B, count=1, average=32 B
+
+----data/ds_50000000_long----
+json
+time: 15.985348224639893 seconds 
+memory: current = 1548.85 MiB and peak = 3456.19 MiB
+[ Top 3 ]
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:355: size=1549 MiB, count=50000004, average=32 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:339: size=584 B, count=1, average=584 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/__init__.py:299: size=512 B, count=1, average=512 B
+
+msgpack
+time: 1.4630961418151855 seconds 
+memory: current = 1525.88 MiB and peak = 1528.51 MiB
+[ Top 3 ]
+profile_action.py:102: size=1526 MiB, count=50000003, average=32 B
+profile_action.py:103: size=32 B, count=1, average=32 B
+
+----data/ds_100000000_short----
+json
+time: 10.54597806930542 seconds 
+memory: current = 3108.72 MiB and peak = 4253.13 MiB
+[ Top 3 ]
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:355: size=3109 MiB, count=100000004, average=33 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:339: size=584 B, count=1, average=584 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/__init__.py:299: size=512 B, count=1, average=512 B
+
+msgpack
+time: 2.895493268966675 seconds 
+memory: current = 3051.76 MiB and peak = 3053.98 MiB
+[ Top 3 ]
+profile_action.py:102: size=3052 MiB, count=100000003, average=32 B
+profile_action.py:103: size=32 B, count=1, average=32 B
+
+----data/ds_100000000_long----
+json
+time: 31.180474042892456 seconds 
+memory: current = 3108.72 MiB and peak = 6923.42 MiB
+[ Top 3 ]
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:355: size=3109 MiB, count=100000004, average=33 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:339: size=584 B, count=1, average=584 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/__init__.py:299: size=512 B, count=1, average=512 B
+
+msgpack
+time: 2.886331081390381 seconds 
+memory: current = 3051.76 MiB and peak = 3053.98 MiB
+[ Top 3 ]
+profile_action.py:102: size=3052 MiB, count=100000003, average=32 B
+profile_action.py:103: size=32 B, count=1, average=32 B
+
+----data/ds_500000000_short----
+json
+time: 52.14849305152893 seconds 
+memory: current = 15708.86 MiB and peak = 21430.90 MiB
+[ Top 3 ]
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:355: size=15.3 GiB, count=500000004, average=33 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:339: size=584 B, count=1, average=584 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/__init__.py:299: size=512 B, count=1, average=512 B
+
+msgpack
+time: 14.74309492111206 seconds 
+memory: current = 15258.79 MiB and peak = 15260.83 MiB
+[ Top 3 ]
+profile_action.py:102: size=14.9 GiB, count=500000003, average=32 B
+profile_action.py:103: size=32 B, count=1, average=32 B
+
+----data/ds_500000000_long----
+json
+time: 172.6639060974121 seconds 
+memory: current = 15708.86 MiB and peak = 34782.34 MiB
+[ Top 3 ]
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:355: size=15.3 GiB, count=500000004, average=33 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:339: size=584 B, count=1, average=584 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/__init__.py:299: size=512 B, count=1, average=512 B
+
+msgpack
+time: 17.503341913223267 seconds 
+memory: current = 15258.79 MiB and peak = 15260.83 MiB
+[ Top 3 ]
+profile_action.py:102: size=14.9 GiB, count=500000003, average=32 B
+profile_action.py:103: size=32 B, count=1, average=32 B
+

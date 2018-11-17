@@ -1,0 +1,80 @@
+----ds_1000_short.json----
+ijson
+time: 0.005639314651489258 seconds 
+memory: current = 0.14 MiB and peak = 0.15 MiB
+[ Top 5 ]
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/site-packages/cffi/api.py:309: size=48.2 KiB, count=772, average=64 B
+/Users/alexding/Documents/src/ijson/ijson/common.py:160: size=23.3 KiB, count=994, average=24 B
+/Users/alexding/Documents/src/ijson/ijson/common.py:128: size=9024 B, count=3, average=3008 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/site-packages/cffi/model.py:591: size=4587 B, count=35, average=131 B
+/Users/alexding/Documents/src/ijson/ijson/backends/yajl2_cffi.py:81: size=2640 B, count=6, average=440 B
+json
+time: 0.0001621246337890625 seconds 
+memory: current = 0.04 MiB and peak = 0.05 MiB
+[ Top 5 ]
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:355: size=32.5 KiB, count=1003, average=33 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/__init__.py:299: size=824 B, count=3, average=275 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:339: size=584 B, count=1, average=584 B
+profile.py:52: size=576 B, count=2, average=288 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/__init__.py:354: size=488 B, count=1, average=488 B
+
+----ds_1000000_short.json----
+ijson
+time: 3.4446609020233154 seconds 
+memory: current = 31.37 MiB and peak = 31.89 MiB
+[ Top 5 ]
+/Users/alexding/Documents/src/ijson/ijson/common.py:160: size=22.9 MiB, count=999995, average=24 B
+/Users/alexding/Documents/src/ijson/ijson/common.py:128: size=8494 KiB, count=3, average=2831 KiB
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/site-packages/cffi/api.py:309: size=124 KiB, count=1989, average=64 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/site-packages/cffi/model.py:591: size=4587 B, count=35, average=131 B
+/Users/alexding/Documents/src/ijson/ijson/backends/yajl2_cffi.py:81: size=2640 B, count=6, average=440 B
+json
+time: 0.12766575813293457 seconds 
+memory: current = 31.19 MiB and peak = 42.63 MiB
+[ Top 5 ]
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:355: size=31.2 MiB, count=1000003, average=33 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/__init__.py:299: size=824 B, count=3, average=275 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:339: size=584 B, count=1, average=584 B
+profile.py:52: size=576 B, count=2, average=288 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/__init__.py:354: size=488 B, count=1, average=488 B
+
+----ds_10000000_short.json----
+ijson
+time: 32.88382124900818 seconds 
+memory: current = 306.69 MiB and peak = 307.35 MiB
+[ Top 5 ]
+/Users/alexding/Documents/src/ijson/ijson/common.py:160: size=229 MiB, count=9999995, average=24 B
+/Users/alexding/Documents/src/ijson/ijson/common.py:128: size=77.8 MiB, count=3, average=25.9 MiB
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/site-packages/cffi/api.py:309: size=124 KiB, count=1989, average=64 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/site-packages/cffi/model.py:591: size=4587 B, count=35, average=131 B
+/Users/alexding/Documents/src/ijson/ijson/backends/yajl2_cffi.py:81: size=2640 B, count=6, average=440 B
+json
+time: 1.3212296962738037 seconds 
+memory: current = 306.64 MiB and peak = 421.08 MiB
+[ Top 5 ]
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:355: size=307 MiB, count=10000003, average=32 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/__init__.py:299: size=824 B, count=3, average=275 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:339: size=584 B, count=1, average=584 B
+profile.py:52: size=576 B, count=2, average=288 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/__init__.py:354: size=488 B, count=1, average=488 B
+
+----ds_50000000_short.json----
+ijson
+time: 163.96617794036865 seconds 
+memory: current = 1549.02 MiB and peak = 1549.53 MiB
+[ Top 5 ]
+/Users/alexding/Documents/src/ijson/ijson/common.py:160: size=1144 MiB, count=49999995, average=24 B
+/Users/alexding/Documents/src/ijson/ijson/common.py:128: size=404 MiB, count=3, average=135 MiB
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/site-packages/cffi/api.py:309: size=124 KiB, count=1989, average=64 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/site-packages/cffi/model.py:591: size=4587 B, count=35, average=131 B
+/Users/alexding/Documents/src/ijson/ijson/backends/yajl2_cffi.py:81: size=2640 B, count=6, average=440 B
+json
+time: 6.612302780151367 seconds 
+memory: current = 1548.85 MiB and peak = 2121.05 MiB
+[ Top 5 ]
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:355: size=1549 MiB, count=50000003, average=32 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/__init__.py:299: size=824 B, count=3, average=275 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/decoder.py:339: size=584 B, count=1, average=584 B
+profile.py:52: size=576 B, count=2, average=288 B
+/usr/local/share/c3/conda/envs/ijson-dev/lib/python3.6/json/__init__.py:354: size=488 B, count=1, average=488 B
+

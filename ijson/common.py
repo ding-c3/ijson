@@ -155,7 +155,6 @@ def number(str_value):
     Converts string with a numeric value into an int or a Decimal.
     Used in different backends for consistent number representation.
     '''
-    number = decimal.Decimal(str_value)
-    if not ('.' in str_value or 'e' in str_value or 'E' in str_value):
-        number = int(number)
-    return number
+    # if not ('.' in str_value or 'e' in str_value or 'E' in str_value):
+    #     return int(str_value)
+    return float(str_value)

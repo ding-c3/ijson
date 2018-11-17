@@ -1,0 +1,48 @@
+----data/ds_1000_short----
+ijson
+time: 0.006600141525268555 seconds 
+
+----data/ds_1000_long----
+ijson
+time: 0.0053310394287109375 seconds 
+
+----data/ds_1000000_short----
+ijson
+time: 3.039109706878662 seconds 
+
+----data/ds_1000000_long----
+ijson
+time: 3.25844407081604 seconds 
+
+----data/ds_10000000_short----
+ijson
+time: 32.5092658996582 seconds 
+
+----data/ds_10000000_long----
+ijson
+time: 34.46420216560364 seconds 
+
+----data/ds_50000000_short----
+ijson
+time: 153.04166889190674 seconds 
+
+----data/ds_50000000_long----
+ijson
+time: 165.6226077079773 seconds 
+
+----data/ds_100000000_short----
+ijson
+time: 320.1167559623718 seconds 
+
+----data/ds_100000000_long----
+ijson
+time: 336.2757451534271 seconds 
+
+----data/ds_500000000_short----
+ijson
+time: 2460.970904111862 seconds 
+
+----data/ds_500000000_long----
+ijson
+time: 1910.4331638813019 seconds 
+
